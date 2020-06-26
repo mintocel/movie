@@ -5,7 +5,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.ajdi.yassin.popularmovies"
+        applicationId "com.minto.soft.moviesapp"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -72,6 +72,9 @@ dependencies {
     // Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
+    // Youtube Player
+    implementation 'com.thefinestartist:ytpa:1.2.1'
+    
     // Circle ImageView
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 

@@ -7,11 +7,11 @@
 
         <variable
             name="movieDetails"
-            type="com.ajdi.yassin.popularmovies.data.local.model.MovieDetails" />
+            type="com.minto.soft.moviesapp.data.local.model.MovieDetails" />
 
         <variable
             name="resource"
-            type="com.ajdi.yassin.popularmovies.data.local.model.Resource" />
+            type="com.minto.soft.moviesapp.data.local.model.Resource" />
 
     </data>
 

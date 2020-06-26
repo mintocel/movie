@@ -2,5 +2,5 @@
 <resources>
     <!--Movies items-->
     <dimen name="item_offset">3dp</dimen>
-    <integer name="span_count">3</integer>
+    <integer name="span_count">2</integer>
 </resources>

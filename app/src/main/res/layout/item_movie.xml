@@ -7,7 +7,7 @@
 
         <variable
             name="movie"
-            type="com.ajdi.yassin.popularmovies.data.local.model.Movie" />
+            type="com.minto.soft.moviesapp.data.local.model.Movie" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -36,23 +36,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:src="@tools:sample/backgrounds/scenic" />
-
-            <TextView
-                android:id="@+id/text_title"
-                android:layout_width="wrap_content"
-                android:layout_height="52dp"
-                android:ellipsize="end"
-                android:gravity="center"
-                android:maxLines="2"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
-                android:text="@{movie.title}"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_movie_poster"
-                tools:text="Bean Hummus with Eggplant &amp; Pine Nuts ean Hummus with Eggplant &amp; Pine Nuts" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
